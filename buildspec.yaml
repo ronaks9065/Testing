@@ -26,5 +26,5 @@ artifacts:
    secondary-artifacts:
     ronakpss: 
       files:
-        - 'cf-data-files-cicd/'
+        - 'secondartifactstore/artifacts/'
 
