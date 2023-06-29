@@ -23,11 +23,3 @@ phases:
 artifacts:
    files:
     - '**/*'
-   secondary-artifacts:
-    SecondArtifact:
-      files:
-        - 'secondartifactstore/**/*'
-      base-directory: 'secondartifactstore/'
-      discard-paths: yes
-      name: secondartifactstore
-      artifact-type: S3
