@@ -23,9 +23,10 @@ phases:
 artifacts:
   files:
     - '**/*'
+  discard-paths: yes
   secondary-artifacts:
-   secondartifactstore:
-     files:
-       - '**/*'
-
+    secondartifactstore:
+      files:
+        - '**/*'
+      discard-paths: yes
 
