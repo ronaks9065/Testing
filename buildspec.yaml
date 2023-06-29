@@ -23,4 +23,8 @@ phases:
 artifacts:
    files:
     - '**/*'
+   secondary-artifacts:
+    secondaryBucket:
+      files:
+        - cf-data-files-cicd/**
 
