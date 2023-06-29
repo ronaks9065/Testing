@@ -25,7 +25,7 @@ artifacts:
     - '**/*'
   discard-paths: yes
   secondary-artifacts:
-    secondartifactstore:
+    artifact:
       files:
         - '**/*'
       discard-paths: yes
