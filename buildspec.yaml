@@ -23,8 +23,9 @@ phases:
 artifacts:
   files:
     - '**/*'
+  secondary-artifacts:
+   secondartifactstore:
+     files:
+       - '**/*'
 
-secondary-artifacts:
-  secondartifactstore:
-    files:
-      - '**/*'
+
