@@ -28,5 +28,5 @@ artifacts:
     artifact:
       files:
         - '/*'
-      discard-paths: yes
+    discard-paths: yes
 
