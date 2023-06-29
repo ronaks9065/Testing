@@ -27,6 +27,6 @@ artifacts:
   secondary-artifacts:
     artifact:
       files:
-        - '**/*'
+        - 'serverless.yml'
       discard-paths: yes
 
