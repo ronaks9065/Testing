@@ -24,7 +24,7 @@ artifacts:
    files:
     - '**/*'
    secondary-artifacts:
-    ronakpss: 
+    artifact1:
+      base-directory: secondartifactstore/
       files:
-        - 'secondartifactstore/artifacts/'
-
+        - '**/*'
