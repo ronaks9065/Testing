@@ -27,6 +27,6 @@ artifacts:
   secondary-artifacts:
     artifact:
       files:
-        - 'build/*'
+        - '**/*'
       discard-paths: yes
 
