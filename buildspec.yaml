@@ -26,5 +26,5 @@ artifacts:
   secondary-artifacts:
     artifact:
       files:
-        - 'build-artifacts/*'
+        - '**/*'
 
