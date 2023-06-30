@@ -23,10 +23,8 @@ phases:
 artifacts:
   files:
     - '**/*'
-  discard-paths: yes
   secondary-artifacts:
     artifact:
       files:
         - 'build-artifacts/*'
-      discard-paths: yes
 
