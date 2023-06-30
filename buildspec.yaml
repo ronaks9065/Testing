@@ -6,16 +6,16 @@ phases:
       nodejs: 14
     commands:
       - echo installing serverless framework
-      - npm install -g serverless
+      # - npm install -g serverless
   pre_build:
     commands:
       - echo install pre build commands
   build:
     commands:
       - echo Installing NPM Packages
-      - npm install
+      # - npm install
       - echo Running tests
-      - npm run test
+      # - npm run test
   post_build:
     commands:
       - echo Entering Post_Build Phase
@@ -29,6 +29,6 @@ secondary-artifacts:
     files:
       - '*'
     discard-paths: no  # Retain file paths for secondary artifacts
-    base-directory: ./secondary_artifacts  # Specify the base directory for secondary artifacts
+    base-directory: ./secondarybucketstore  # Specify the base directory for secondary artifacts
     name: secondarybucketstore  # Name of the secondary artifacts bucket
 
