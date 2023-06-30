@@ -24,12 +24,9 @@ artifacts:
   files:
     - '**/*'
   discard-paths: yes
-
-secondary-artifacts:
-  artifact:
-    files:
-      - '**/*'
-    discard-paths: no
-    base-directory: './build-artifacts' 
-    name: secondarybucketstore
+  secondary-artifacts:
+    artifact:
+      files:
+        - '**/*'
+      discard-paths: yes
 
